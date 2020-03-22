@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="location">
+        <div >
+            <h1 >Daily Summary: </h1>
+            <p class="summary"></p>
+        </div>
+        <h1 class="location-timezone">Timezone</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+        <div>
+            <h1 >Forecast for the Day</h1>
+            <ul class="list" id="summaryHourly">
+            </ul>
+        </div>
+    </div>
+
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">32</h2>
+            <span>F</span>
+        </div>
+        <div class="temperature-description">Temperature description</div>
+        <div class="humidity">Humidity</div>
+    </div>
+
+    <script src="skycons.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
